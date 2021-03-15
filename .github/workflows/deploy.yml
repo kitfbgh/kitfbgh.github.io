@@ -19,7 +19,7 @@ jobs:
         with:
           args: install
 
-      - name: Install jigsaw
+      - name: Build jigsaw
         uses: docker://php:7.4
         with:
           args: php vendor/bin/jigsaw build
